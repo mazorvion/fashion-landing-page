@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    
+}
+
+#box{
+    width: 70%;
+    height: 70%;
+    
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    height: 100%;
+    width: 24%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row{
+    height: 49%;
+    width: 100%;
+    background-color: rgb(255, 145, 0);
+}
+
+#c1r1{
+    background-color: pink;
+    background-image: url(hwasa-images/1.png);
+    background-position: top;
+    background-size: cover;
+    
+}
+
+#c1r2{
+    background-color: pink;
+    background-image: url(hwasa-images/5.png);
+    background-position: top;
+    background-size: cover;
+    
+}   
+
+#c2r1{
+    background-color: pink;
+    background-image: url(hwasa-images/3.png);
+    background-position: top;
+    background-size: cover;
+    
+}   
+
+#c2r2{
+    background-color: pink;
+    background-image: url(hwasa-images/4.png);
+    background-position: top;
+    background-size: cover;
+    
+}
+
+#col3{
+    background-color: black;
+    background-image: url(https://media.tenor.com/GS_Wk1KBBRAAAAAC/hwasa-hwasa-mamamoo.gif);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#c4r1{
+    background-color: pink;
+    background-image: url(hwasa-images/6.png);
+    background-position: top;
+    background-size: cover;
+    
+} 
+
+#c4r2{
+    background-color: pink;
+    background-image: url(hwasa-images/7.png);
+    background-position: top;
+    background-size: cover;
+    
+} 
+
+#head h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: 200px;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+#logo h1{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 99999;
+    color: rgb(255, 255, 255);
+
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navright{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 9999999;
+}
+
+#navright a{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+
+
+#elems{
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 0, 128, 0);
+    position: absolute;
+}
+
+#leftbtmbox{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+#leftbtmbox i{
+    font-size: 60px;
+    color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#prev{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+    position: absolute;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+#next{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+    position: absolute;
+    font-weight: 500;
+    text-align: center;
+}
+
+#footer{
+    top: 95%;
+    height: 100px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+}
+
+
+#footer h6{
+    position: relative;
+    font-size: 30px;
+    font-family: 'Comforter Brush', cursive;
+    z-index: 99999;
+    color: rgb(255, 255, 255);
+}
+
+#footer p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
